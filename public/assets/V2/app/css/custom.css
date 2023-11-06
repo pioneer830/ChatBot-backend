@@ -1,0 +1,151 @@
+.sidebar .nav .nav-item .menu-icon svg{
+    width: 15px;
+}
+
+.form-control{
+    color: white;
+}
+
+.optimize-btn{
+    background-color: #0078c1;
+    border-color: #0070b4;
+    height: 50px;
+}
+
+input.form-control:disabled,textarea.form-control:disabled {
+    background-color: #a4acb3;
+    opacity: 1;
+}
+
+.pricing-table .pricing-card .pricing-card-body {
+    padding: 50px 56px 43px;
+}
+
+.pricing-table .pricing-card .pricing-card-body .plan-features {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.pricing-table .pricing-card .pricing-card-body .plan-features li {
+    padding: 4px 0;
+    font-weight: 400;
+    font-size: .875rem;
+    text-align: center;
+}
+
+:root {
+    --white: white;
+    --gray: #999;
+    --lightgray: whitesmoke;
+    --darkgreen: #2a9d8f;
+    --popular: #ffdd40;
+    --starter: #f73859;
+    --essential: #00aeef;
+    --professional: #ff7f45;
+}
+.switch-wrapper {
+    position: relative;
+    display: inline-flex;
+    padding: 4px;
+    border: 1px solid lightgrey;
+    margin-bottom: 70px;
+    border-radius: 30px;
+    background: var(--white);
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    justify-content: space-around;
+    min-width: 220px;
+
+}
+
+.switch-wrapper [type="radio"] {
+    position: absolute;
+    left: -9999px;
+}
+
+.switch-wrapper [type="radio"]:checked#monthly ~ label[for="monthly"],
+.switch-wrapper [type="radio"]:checked#yearly ~ label[for="yearly"] {
+    color: var(--white);
+}
+
+.switch-wrapper [type="radio"]:checked#monthly ~ label[for="monthly"]:hover,
+.switch-wrapper [type="radio"]:checked#yearly ~ label[for="yearly"]:hover {
+    background: transparent;
+}
+
+.switch-wrapper
+[type="radio"]:checked#monthly
++ label[for="yearly"]
+~ .highlighter {
+    transform: none;
+}
+
+.switch-wrapper
+[type="radio"]:checked#yearly
++ label[for="monthly"]
+~ .highlighter {
+    transform: translateX(100%);
+}
+
+.switch-wrapper label {
+    font-size: 13px;
+    z-index: 1;
+    min-width: 100px;
+    line-height: 32px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: color 0.25s ease-in-out;
+    font-weight: 800;
+}
+
+.switch-wrapper label:hover {
+    background: var(--lightgray);
+}
+
+.switch-wrapper .highlighter {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: calc(50% - 4px);
+    height: calc(100% - 8px);
+    border-radius: 30px;
+    background: var(--darkgreen);
+    transition: transform 0.25s ease-in-out;
+}
+
+.list-unstyled ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lock-img-area{
+    position: absolute;
+}
+.lock-div img{
+    position: relative;
+    top: -40px;
+    left: 216px
+}
+.lock-div p{
+    position: absolute;
+    top: -39px;
+    left: 246px;
+    background: blueviolet;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.hide{
+    display: none;
+}
+
+.lock-div img:hover + .hide{
+    display: block;
+}
+
+
+

@@ -1,0 +1,17 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-bbece700.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/css/homepage.css": {
+    "file": "assets/homepage-24e21271.css",
+    "isEntry": true,
+    "src": "resources/css/homepage.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-fcdac884.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
